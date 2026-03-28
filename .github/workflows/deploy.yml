@@ -29,7 +29,7 @@ jobs:
 
       - run: npx next build
         env:
-          NEXT_PUBLIC_BASE_PATH: /thaisedans
+          PAGES_BASE_PATH: /thaisedans
 
       - uses: actions/upload-pages-artifact@v3
         with:

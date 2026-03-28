@@ -2,6 +2,8 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import SubNav from '@/components/content/SubNav';
 import ContentSection from '@/components/content/ContentSection';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export async function generateMetadata({
   params,
 }: {
@@ -46,7 +48,7 @@ export default async function AboutPage({
           id="intro"
           title={t('intro.title')}
           paragraphs={introParagraphs}
-          image="/images/about/oui.JPG"
+          image={`${basePath}/images/about/oui.JPG`}
           imageAlt="Ratchaneekorn performing Thai dance"
         />
 
@@ -75,7 +77,7 @@ export default async function AboutPage({
           id="ratchaneekorn"
           title={t('ratchaneekorn.title')}
           paragraphs={ratchaneekornParagraphs}
-          image="/images/about/oui2.JPG"
+          image={`${basePath}/images/about/oui2.JPG`}
           imageAlt="Ratchaneekorn Vichayanon"
           reverse
         />

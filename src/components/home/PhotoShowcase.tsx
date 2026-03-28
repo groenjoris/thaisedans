@@ -2,6 +2,8 @@ import Image from 'next/image';
 import fs from 'fs';
 import path from 'path';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 function getHomePhotos(): string[] {
   const dir = path.join(process.cwd(), 'public/images/home');
   try {
@@ -9,7 +11,7 @@ function getHomePhotos(): string[] {
       .readdirSync(dir)
       .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f))
       .sort()
-      .map((f) => `/images/home/${f}`);
+      .map((f) => `${basePath}/images/home/${f}`);
   } catch {
     return [];
   }

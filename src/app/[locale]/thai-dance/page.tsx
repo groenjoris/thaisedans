@@ -2,6 +2,8 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import SubNav from '@/components/content/SubNav';
 import ContentSection from '@/components/content/ContentSection';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export async function generateMetadata({
   params,
 }: {
@@ -47,7 +49,7 @@ export default async function ThaiDancePage({
           id="intro"
           title={t('intro.title')}
           paragraphs={t.raw('intro.paragraphs') as string[]}
-          image="/images/about/sukhothai.jpg"
+          image={`${basePath}/images/about/sukhothai.jpg`}
           imageAlt="Sukhothai Thai Dance"
         />
 
@@ -57,7 +59,7 @@ export default async function ThaiDancePage({
           id="history"
           title={t('history.title')}
           paragraphs={t.raw('history.paragraphs') as string[]}
-          image="/images/about/ramakien.jpg"
+          image={`${basePath}/images/about/ramakien.jpg`}
           imageAlt="Ramakien performance"
           reverse
         />
@@ -68,8 +70,8 @@ export default async function ThaiDancePage({
           id="music"
           title={t('music.title')}
           paragraphs={t.raw('music.paragraphs') as string[]}
-          image="/images/about/ranaad.jpg"
-          image2="/images/about/drum.jpg"
+          image={`${basePath}/images/about/ranaad.jpg`}
+          image2={`${basePath}/images/about/drum.jpg`}
           imageAlt="Thai musical instruments"
         />
       </div>

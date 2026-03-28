@@ -1,6 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export function getFilesFromDir(
   publicPath: string,
   extensions: string[] = ['.jpg', '.jpeg', '.png', '.webp']
@@ -14,7 +16,7 @@ export function getFilesFromDir(
         return extensions.includes(ext);
       })
       .sort()
-      .map((f) => `/${publicPath}/${f}`);
+      .map((f) => `${basePath}/${publicPath}/${f}`);
   } catch {
     return [];
   }

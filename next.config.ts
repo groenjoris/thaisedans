@@ -3,13 +3,16 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin('./src/lib/i18n/request.ts');
 
-const isGhPages = process.env.GITHUB_ACTIONS === 'true';
+const basePath = process.env.PAGES_BASE_PATH || '';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: isGhPages ? '/thaisedans' : '',
+  basePath: basePath || undefined,
   images: {
     unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 

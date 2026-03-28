@@ -2,6 +2,8 @@ import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 import Button from '@/components/ui/Button';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function WorkshopsTeaser() {
   const t = useTranslations('workshops');
   const locale = useLocale();
@@ -32,7 +34,7 @@ export default function WorkshopsTeaser() {
 
           <div className="w-48 lg:w-64 flex-shrink-0 opacity-80">
             <Image
-              src="/images/ui/dancers-group.png"
+              src={`${basePath}/images/ui/dancers-group.png`}
               alt="Thai Dancers"
               width={256}
               height={120}
