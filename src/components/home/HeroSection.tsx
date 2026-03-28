@@ -3,6 +3,8 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Button from '@/components/ui/Button';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function HeroSection() {
   const t = useTranslations();
   const locale = useLocale();
@@ -28,10 +30,10 @@ export default function HeroSection() {
         muted
         loop
         playsInline
-        poster="/images/hero/hero-poster.jpg"
+        poster={`${basePath}/images/hero/hero-poster.jpg`}
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/images/hero/hero-video.mp4" type="video/mp4" />
+        <source src={`${basePath}/images/hero/hero-video.mp4`} type="video/mp4" />
       </video>
 
       {/* Dark overlay */}

@@ -5,6 +5,8 @@ import { useState } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 interface PhotoGridProps {
   photos: string[];
   columns?: number;
@@ -55,7 +57,7 @@ export default function PhotoGrid({
         open={lightboxIndex >= 0}
         close={() => setLightboxIndex(-1)}
         index={lightboxIndex}
-        slides={photos.map((src) => ({ src }))}
+        slides={photos.map((src) => ({ src: `${basePath}${src}` }))}
         styles={{
           container: { backgroundColor: 'rgba(26, 15, 10, 0.95)' },
         }}
