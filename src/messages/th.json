@@ -1,0 +1,307 @@
+{
+  "locale": "th",
+  "siteName": "Akhira Thai Dance",
+  "tagline": "การแสดงรำไทยและเวิร์กช้อป",
+  "nav": {
+    "home": "หน้าแรก",
+    "video": "วิดีโอ",
+    "photos": "รูป",
+    "workshops": "สอนรำ",
+    "thaiDance": "เกี่ยวกับรำไทย",
+    "about": "เกี่ยวกับเรา",
+    "contact": "ติดต่อ",
+    "tagline": "นาฏศิลป์ไทยในยุโรปตั้งแต่ปี 2005"
+  },
+  "languages": {
+    "nl": "Nederlands",
+    "en": "English",
+    "th": "ภาษาไทย"
+  },
+  "home": {
+    "intro": "อาคิรารับงานรำและแสดงดนตรีไทยในงานฉลอง งานรื่นเริง งานแต่งงาน และทุกที่หากต้องการให้มีบรรยากาศแบบไทยๆ คณะอาคิรานาฎศิลป์ไทยในขณะนี้มีศูนย์กลางอยู่ที่ Amsterdam ทางคณะมีความยินดีรับงานแสดงทั้งในประเทศ Netherlands และในทวีปยุโรป",
+    "offerTitle": "เรารับงานแสดงประเภทต่างๆ ดังนี้:",
+    "offerItems": [
+      "รำเดี่ยว",
+      "รำหมู่",
+      "รำไทย + แสดงดนตรีไทย"
+    ],
+    "workshopsLink": "เวิร์กช้อปสั้นๆ และรับสอนรำไทย (ส่วนตัว)",
+    "workshopsText": "สำหรับผู้ที่เคยหรือไม่เคยรำ เราจัดทำ [link]",
+    "performancesTitle": "แผนงานแสดง",
+    "banner": {
+      "title": "งานไทย?",
+      "text": "อาคิรารับงานแสดงรำไทยรวมกับบริการอาหารไทย",
+      "linkText": "กรุณาติดต่อเรา",
+      "linkUrl": "/th/contact"
+    },
+    "youtubeVideos": [
+      "RF0pvBtKLz4",
+      "-b08tcBSwWk",
+      "mFrrFhXKf2I",
+      "f1Jr4wiUZ-Y"
+    ]
+  },
+  "about": {
+    "subNav": {
+      "intro": "กล่าวนำ",
+      "clients": "ลูกค้า",
+      "ratchaneekorn": "เกี่ยวกับรัชนีกร"
+    },
+    "intro": {
+      "title": "เกี่ยวกับเรา",
+      "image": "/images/content/ouidanceoutfit_smaller.jpg",
+      "paragraphs": [
+        "อาคิราจัดตั้งขึ้นโดยรัชนีกร วิชญานนท์ หลังจากได้ประกอบอาชีพเป็นนักเต้นรำในประเทศไทย ในปี ค.ศ. 2005 เธอได้เดินทางมาที่เนเธอร์แลนด์และเริ่มแสดงการเต้นรำตามงานฉลอง งานรื่นเริง งานแต่งงาน และในร้านอาหารไทยต่างๆ",
+        "การแสดงทุกครั้งจะไม่ซ้ำแบบกัน ในการโชว์ต่างๆ เราจะใช้ชุดแต่งกายดั้งเดิมและคู่กับอุปกรณ์ เช่น พัด ร่ม เล็บยาวๆ และไม้ไผ่ เราจะปรับรายการแสดงที่ไม่เหมือนใครให้เข้ากับงานใหม่ที่ได้รับทุกครั้ง",
+        "นอกจากรับแสดงรำเดี่ยวแล้ว เรายังทำงานร่วมกับผู้แสดงรำไทยอื่นๆ และรับงานรำหมู่ในรูปแบบต่างกัน พร้อมอาจให้มีการบรรเลงดนตรีไทยสดด้วยก็ได้",
+        "ขณะนี้อาคิรากำลังขยายกิจการเป็นสำนักงานรับงานแสดงในงานรื่นเริงไทยต่างๆ ในยุโรป โดยนอกจากจะรับงานการรำและแสดงดนตรีไทยแล้ว ยังรับจัดการสาธิตมวยไทย การแกะสลักผลไม้ ถ่ายรูป make-over สไตล์ไทย และอื่นๆ อีกมากมาย"
+      ]
+    },
+    "clients": {
+      "title": "ลูกค้า",
+      "intro": "อาคิราได้แสดงให้กับ:",
+      "list": [
+        "UNESCO, Paris",
+        "สถานทูตไทย, กรุงเฮก",
+        "Kloosterreizen",
+        "Orient Plaza, Nijmegen",
+        "Hilton Hotel, Prague, Czech Republic",
+        "Kim en Jeroen, Amsterdam",
+        "Expo Ghent สำหรับสถานทูตไทย, Belgium",
+        "Pasar Asia",
+        "Thailand Grand Festival, Amsterdam",
+        "Top Thai, Thai Restaurant, Amsterdam",
+        "Mahanakorn, Thai Restaurant, Utrecht",
+        "Colourfull Festival, Emmen",
+        "Thai Festival, Ahoy, Rotterdam",
+        "Sai Yai Thai, Thai Gala, Grote Kerk Amsterdam",
+        "Thailand Fantasy, Nirusha, Hoofddorp",
+        "Vakantiebeurs, Jaarbeurs, Utrecht",
+        "Winkelcentrum \"De Tuinen\", Naaldwijk",
+        "Wudenshu Asia"
+      ]
+    },
+    "ratchaneekorn": {
+      "title": "เกี่ยวกับรัชนีกร",
+      "image": "/images/content/oui.jpg",
+      "paragraphs": [
+        "รัชนีกร วิชญานนท์ ศึกษาการรำไทยและนาฏศิลป์สมัยใหม่ที่วิทยาลัยนาฏศิลป์ \"นาฏศิลป์\" อันมีชื่อเสียง ซึ่งตั้งอยู่ใกล้กับวัดพระแก้ว (พระบรมมหาราชวัง) ในกรุงเทพมหานคร",
+        "เธอแสดงทั่วประเทศไทยในการแสดงหลายครั้ง ทั้งแบบคลาสสิกและสมัยใหม่ หนึ่งในไฮไลท์การรำของเธอคือการแสดงรำไทยอันน่าตื่นตาตื่นใจเพื่อเฉลิมฉลองวันเฉลิมพระชนมพรรษาครบ 75 พรรษาของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช ซึ่งมีนักแสดงกว่า 200 คนบนแม่น้ำเจ้าพระยา",
+        "เธอยังปรากฏตัวในมิวสิกวิดีโอของศิลปินไทยชื่อดังหลายคน เช่น Cristina Aguila, James และ Sonram และปรากฏตัวทุกสัปดาห์ทางโทรทัศน์ในฐานะนักเต้นในรายการ \"ชิงร้อยชิงล้าน\"",
+        "ตั้งแต่เดือนกุมภาพันธ์ 2005 เธออาศัยอยู่ในเนเธอร์แลนด์และแสดงรำในงานต่างๆ งานแสดงสินค้า งานปาร์ตี้ งานแต่งงาน และงานกาล่า",
+        "ในฤดูร้อนปี 2008 เธอได้รับรางวัลชนะเลิศทั้งการรำเดี่ยวและการรำหมู่ในการแข่งขันรำไทยเพียงแห่งเดียวในยุโรป ณ Kurpark ในเมือง Bad Homburg ประเทศเยอรมนี"
+      ]
+    },
+    "links": {
+      "title": "ลิงก์",
+      "items": [
+        {
+          "text": "หน้า Classical Thai Dance ของมหาวิทยาลัยมหิดล กรุงเทพฯ",
+          "url": "http://www.mahidol.ac.th/thailand/classical-dance.html"
+        },
+        {
+          "text": "Chiangmai-Chiangrai.com เกี่ยวกับรำไทย",
+          "url": "http://www.chiangmai-chiangrai.com/thai_classical_dance.html"
+        },
+        {
+          "text": "Baan Ram Thai: เว็บไซต์ไทยที่ครอบคลุมเกี่ยวกับรำไทย",
+          "url": "http://www.banramthai.com/indexeng.html"
+        },
+        {
+          "text": "Nethai: ทุกอย่างเกี่ยวกับกิจกรรมไทยในเนเธอร์แลนด์",
+          "url": "http://www.nethai.nl"
+        },
+        {
+          "text": "K'dans studio: สตูดิโอเต้นและแอโรบิคที่ดีที่สุดในกรุงเฮก",
+          "url": "http://www.kdans.nl"
+        },
+        {
+          "text": "Ruen Thai: อาหารไทยที่อร่อยที่สุดในกรุงเฮก",
+          "url": "http://www.ruenthai.nl"
+        },
+        {
+          "text": "Top Thai: อาหารไทยที่อร่อยที่สุดในอัมสเตอร์ดัม!",
+          "url": "http://www.topthai.nl"
+        },
+        {
+          "text": "Suwannaphoom: สำนักงานแปลภาษาไทยใน Almere",
+          "url": "http://www.suwannaphoom.nl/"
+        }
+      ]
+    }
+  },
+  "thaiDance": {
+    "subNav": {
+      "intro": "กล่าวนำ",
+      "history": "ประวัติ",
+      "music": "ดนตรี"
+    },
+    "intro": {
+      "title": "รำไทย",
+      "image": "/images/content/sukhothai.jpg",
+      "paragraphs": [
+        "รำไทยมีลักษณะเฉพาะคือการเคลื่อนไหวมือที่ช้า งดงาม และเกือบจะสะกดจิต ในทางประวัติศาสตร์ รำไทยมีความเชื่อมโยงอย่างแน่นแฟ้นกับการแสดงละครเวที ดังนั้นจึงมีการแสดงออกทางอารมณ์มากมาย ท่าทางส่วนใหญ่มีความหมายที่ชัดเจน เช่น ความรัก ความขี้อาย ความเศร้า ความโกรธ หรือการแสดงความเคารพต่อพระพุทธเจ้าหรือพระมหากษัตริย์",
+        "รำไทยพื้นฐานอยู่บนจังหวะที่ช้า แม้ว่าการรำพื้นเมืองบางอย่างจะค่อนข้างเร็ว จังหวะที่ช้าต้องการความสมดุลที่ดีและการควบคุมร่างกาย",
+        "ชายและหญิงรำเป็นกลุ่ม เดี่ยว หรือร่วมกัน โดยไม่เน้นการเกี้ยวพาราสีระหว่างชายและหญิงเหมือนการเต้นรำในละตินอเมริกา รำไทยมุ่งสร้างภาพที่สวยงามให้แก่ผู้ชม",
+        "ท่าทางและการเคลื่อนไหวที่งดงามเป็นสิ่งที่น่ามอง ไม่ใช่เรื่องบังเอิญที่การเต้นรำแบบเอเชียเป็นที่นิยมในหมู่นักออกแบบท่าเต้น ในมิวสิกวิดีโอเราเห็นอิทธิพลเอเชียมากขึ้นเรื่อยๆ การเคลื่อนไหวที่หวานและสง่างามจากตะวันออกไกลเป็นการตอบสนองต่อการเต้นสตรีทและฮิปฮอปแบบแมนๆ ที่เราเห็นในช่วง 15 ปีที่ผ่านมา",
+        "รำไทยไม่เพียงแต่สวยงามน่ามอง แต่ยังยอดเยี่ยมในการฝึกฝนเอง ช่วยส่งเสริมความสมดุลทางจิตใจและร่างกาย"
+      ]
+    },
+    "history": {
+      "title": "ประวัติ",
+      "image": "/images/content/ramakien.jpg",
+      "paragraphs": [
+        "ประวัติศาสตร์ของรำไทยย้อนกลับไปไกลมากและมีรากฐานมาจากพุทธศาสนา ซึ่งแพร่หลายจากอินเดียมายังประเทศไทยเมื่อ 1,000 ปีก่อน ตลอดเวลา รำไทยได้รับการพัฒนาเพิ่มเติมในราชสำนักไทย ใช้เป็นการแสดงความเคารพหรือความบันเทิงสำหรับพระมหากษัตริย์ โดยการรำมีบทบาทสำคัญในการแสดงละคร ส่วนใหญ่แสดงมหากาพย์ที่มีชื่อเสียง \"รามเกียรติ์\" ซึ่งเป็นนิทานปรัมปราที่รู้จักกันดีที่สุดในประเทศไทย",
+        "ตัวละครหลักคือ \"ยักษ์\" ผู้ร้ายที่มีชื่อเสียง ซึ่งพบเห็นได้ในวัดไทยหลายแห่ง และ \"หนุมาน\" ลิงใจดีที่ปกป้องราชวงศ์ เป็นเรื่องราวเกี่ยวกับความรักและการต่อสู้ระหว่างความดีและความชั่ว การแสดงรามเกียรติ์ยังคงเป็นที่นิยมในประเทศไทย",
+        "ชุดแต่งกายที่ทำด้วยมืออย่างประณีตสร้างความประทับใจอย่างมาก รำไทยแบบคลาสสิกไม่ได้ขึ้นชื่อว่าง่าย โดยเฉพาะเพราะชุดแต่งกายค่อนข้างหนัก",
+        "นอกจากรำไทยแบบคลาสสิกแล้ว ยังมีประเพณีการรำพื้นบ้านที่หลากหลาย การเคลื่อนไหวและเทคนิคหลายอย่างในการรำพื้นบ้านมาจากการรำแบบคลาสสิก ภูมิภาคต่างๆ มีการรำของตนเอง โดยอิงจากชีวิตประจำวันของชาวไทย เช่น การปลูกข้าว การเก็บเกี่ยว หรือพิธีกรรมทางพุทธศาสนา"
+      ]
+    },
+    "music": {
+      "title": "ดนตรี",
+      "image": "/images/content/ranaad.jpg",
+      "image2": "/images/content/drum.jpg",
+      "paragraphs": [
+        "ในการแสดงรำแบบดั้งเดิม นักแสดงจะถูกบรรเลงโดยวงดนตรีที่ไม่สามารถมองเห็นได้จากผู้ชม เครื่องดนตรีส่วนใหญ่ทำจากไม้ไผ่ เช่น แคน (เครื่องเป่า) ระนาด แป (ขลุ่ย) ซอ (คล้ายเชลโล) สำหรับเครื่องกระทบมี ฉิ่ง (ฉาบ) และกลอง ดนตรีนี้อิงจากบันไดเสียงเพนทาโทนิก ซึ่งรู้จักกันจากดนตรีจีนด้วย",
+        "ส่วนใหญ่ของบทเพลงอยู่ในคีย์เดียว มักเริ่มช้าและค่อยๆ เพิ่มจังหวะ ความซ้ำซากจำเจ ประกอบกับเสียงไม้ไผ่ที่เป็นเอกลักษณ์ สามารถสร้างผลคล้ายภาวะทรานซ์ได้",
+        "ดนตรีพื้นบ้านไทยสมัยใหม่ฟังดูร่าเริง เร็วกว่าเล็กน้อย และมักมีเสียงร้อง ปัจจุบันดนตรีตะวันตกเป็นที่นิยมอย่างมากในหมู่คนหนุ่มสาวในประเทศไทย แต่ดนตรีพื้นบ้านไทยยังคงเป็นที่รักของทุกช่วงอายุ"
+      ]
+    }
+  },
+  "workshops": {
+    "intro": "อาคิรารับทำเวิร์กช้อปให้ได้สำหรับเอกชน บริษัท หรือองค์กรต่างๆ เป็นเวลาต่างกันตั้งแต่ 1 ชั่วโมงถึง 1 วัน",
+    "subtitle": "เนื้อหา ความยาวชั่วโมงเรียน และจำนวนคนในกลุ่ม สามารถปรับได้ตามความต้องการพิเศษ ประกอบด้วย:",
+    "items": [
+      "การสาธิตรำไทย",
+      "การฝึกท่ารำง่ายๆ (ไม่จำเป็นต้องเคยรำมาก่อน)",
+      "ชี้แจงประวัติและที่มาของการรำไทย",
+      "อาหารไทยอร่อยๆ ให้ชิม"
+    ],
+    "contactText": "กรุณา[link]สำหรับรายละเอียดเพิ่มเติม",
+    "contactLink": "ติดต่อเรา"
+  },
+  "video": {
+    "title": "วิดีโอ",
+    "videos": [
+      { "file": "nirusha", "title": "Thailand Fantasy, Nirusha, Hoofddorp", "thumb": "/images/content/nirusha_thumb.jpg" },
+      { "file": "somtam", "title": "Pasar Perron: Som Tam Dance", "thumb": "/images/content/somtam_thumb.jpg" },
+      { "file": "mekkara", "title": "Thailand Festival, Mekkala", "thumb": "/images/content/mekkara_thumb.jpg" },
+      { "file": "boxing", "title": "Thailand Festival, Boxing", "thumb": "/images/content/boxing_thumb.jpg" },
+      { "file": "laanna", "title": "Thailand Festival, Laanna", "thumb": "/images/content/laanna_thumb.jpg" },
+      { "file": "riverofkings", "title": "Thailand Festival, River of Kings", "thumb": "/images/content/riverofkings_thumb.jpg" },
+      { "file": "pasar", "title": "Pasar Asia, Group Dance", "thumb": "/images/content/pasar_thumb.jpg" },
+      { "file": "ballet", "title": "Thai Gala, Grote Kerk", "thumb": "/images/content/ballet_thumb.jpg" },
+      { "file": "landofsiam", "title": "Thai Gala, Grote Kerk", "thumb": "/images/content/landofsiam_thumb.jpg" },
+      { "file": "sjaal", "title": "Thai Gala, Grote Kerk", "thumb": "/images/content/sjaal_thumb.jpg" },
+      { "file": "thailandclip1", "title": "Queen's Day, Bangkok", "thumb": "/images/content/thailandclip1_thumb.jpg" },
+      { "file": "thailandclip2", "title": "Queen's Day, Bangkok", "thumb": "/images/content/thailandclip2_thumb.jpg" },
+      { "file": "lexion1", "title": "Thai Party, Lexion", "thumb": "/images/content/lexion1_thumb.jpg" },
+      { "file": "oui_saiyaithai", "title": "Sai Yai Thai Party: Thai Modern", "thumb": "/images/content/oui_saiyaithai_thumb.jpg" },
+      { "file": "vakantiebeurs1", "title": "Vakantiebeurs, Utrecht", "thumb": "/images/content/vakantiebeurs1_thumb.jpg" },
+      { "file": "vakantiebeurs2", "title": "Vakantiebeurs, Utrecht", "thumb": "/images/content/vakantiebeurs2_thumb.jpg" },
+      { "file": "techno", "title": "Sai Yai Thai Party, Techno", "thumb": "/images/content/techno_thumb.jpg" },
+      { "file": "track2", "title": "Videoclip Cristina Aquila", "thumb": "/images/content/track2_thumb.jpg" },
+      { "file": "track8", "title": "Videoclip Cristina Aquila", "thumb": "/images/content/track8_thumb.jpg" },
+      { "file": "restaurant1", "title": "Thai Restaurant", "thumb": "/images/content/restaurant1_thumb.jpg" }
+    ]
+  },
+  "photos": {
+    "title": "ภาพถ่ายจากการแสดงรำไทยของเรา",
+    "subtitle": "ตั้งแต่ปี 2005 ถึงปัจจุบัน",
+    "gallery1Title": "การแสดง",
+    "gallery2Title": "โชว์และงานอีเวนท์",
+    "gallery1": [
+      "/images/gallery/ThaiDance001.jpg",
+      "/images/gallery/ThaiDance002.jpg",
+      "/images/gallery/ThaiDance003.jpg",
+      "/images/gallery/ThaiDance004.jpg",
+      "/images/gallery/ThaiDance005.jpg",
+      "/images/gallery/ThaiDance006.jpg",
+      "/images/gallery/ThaiDance007.jpg",
+      "/images/gallery/ThaiDance008.jpg",
+      "/images/gallery/ThaiDance009.jpg",
+      "/images/gallery/ThaiDance010.jpg",
+      "/images/gallery/ThaiDance011.jpg",
+      "/images/gallery/ThaiDance012.jpg",
+      "/images/gallery/ThaiDance013.jpg",
+      "/images/gallery/ThaiDance014.jpg",
+      "/images/gallery/ThaiDance015.jpg",
+      "/images/gallery/ThaiDance016.jpg",
+      "/images/gallery/ThaiDance017.jpg",
+      "/images/gallery/ThaiDance018.jpg",
+      "/images/gallery/ThaiDance019.jpg",
+      "/images/gallery/ThaiDance020.jpg",
+      "/images/gallery/ThaiDance021.jpg",
+      "/images/gallery/ThaiDance022.jpg",
+      "/images/gallery/ThaiDance023.jpg",
+      "/images/gallery/ThaiDance024.jpg",
+      "/images/gallery/ThaiDance025.jpg",
+      "/images/gallery/ThaiDance026.jpg",
+      "/images/gallery/ThaiDance027.jpg",
+      "/images/gallery/ThaiDance028.jpg",
+      "/images/gallery/ThaiDance029.jpg",
+      "/images/gallery/ThaiDance030.jpg",
+      "/images/gallery/ThaiDance031.jpg",
+      "/images/gallery/ThaiDance032.jpg",
+      "/images/gallery/ThaiDance033.jpg",
+      "/images/gallery/ThaiDance034.jpg",
+      "/images/gallery/ThaiDance035.jpg",
+      "/images/gallery/ThaiDance036.jpg",
+      "/images/gallery/ThaiDance037.jpg",
+      "/images/gallery/ThaiDance038.jpg",
+      "/images/gallery/ThaiDance039.jpg",
+      "/images/gallery/ThaiDance040.jpg",
+      "/images/gallery/ThaiDance041.jpg",
+      "/images/gallery/ThaiDance042.jpg",
+      "/images/gallery/ThaiDance043.jpg",
+      "/images/gallery/ThaiDance044.jpg",
+      "/images/gallery/ThaiDance045.jpg"
+    ],
+    "gallery2": [
+      "/images/gallery/Thaisedans001.jpg",
+      "/images/gallery/Thaisedans002.jpg",
+      "/images/gallery/Thaisedans003.jpg",
+      "/images/gallery/Thaisedans004.jpg",
+      "/images/gallery/Thaisedans005.jpg",
+      "/images/gallery/Thaisedans006.jpg",
+      "/images/gallery/Thaisedans007.jpg",
+      "/images/gallery/Thaisedans008.jpg",
+      "/images/gallery/Thaisedans009.jpg",
+      "/images/gallery/Thaisedans010.jpg",
+      "/images/gallery/Thaisedans011.jpg",
+      "/images/gallery/Thaisedans012.jpg",
+      "/images/gallery/Thaisedans013.jpg",
+      "/images/gallery/Thaisedans014.jpg",
+      "/images/gallery/Thaisedans015.jpg",
+      "/images/gallery/Thaisedans016.jpg",
+      "/images/gallery/Thaisedans017.jpg",
+      "/images/gallery/Thaisedans018.jpg",
+      "/images/gallery/Thaisedans019.jpg",
+      "/images/gallery/Thaisedans020.jpg",
+      "/images/gallery/Thaisedans021.jpg",
+      "/images/gallery/Thaisedans022.jpg",
+      "/images/gallery/Thaisedans023.jpg",
+      "/images/gallery/Thaisedans024.jpg",
+      "/images/gallery/Thaisedans025.jpg",
+      "/images/gallery/Thaisedans026.jpg"
+    ]
+  },
+  "contact": {
+    "title": "ติดต่อ",
+    "name": "Akhira Thai Dance",
+    "email": "oui@thaisedans.nl",
+    "phone": "06 48262749",
+    "formIntro": "มีคำถามหรือต้องการใบเสนอราคา? กรุณาติดต่อเราหรือใช้แบบฟอร์มด้านล่าง",
+    "form": {
+      "name": "ชื่อ",
+      "email": "อีเมล",
+      "phone": "โทรศัพท์",
+      "message": "ข้อความของคุณ",
+      "submit": "ส่ง"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Akhira Thai Dance สงวนลิขสิทธิ์",
+    "privacyPolicy": "นโยบายความเป็นส่วนตัว"
+  }
+}

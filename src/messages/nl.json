@@ -1,0 +1,307 @@
+{
+  "locale": "nl",
+  "siteName": "Akhira Thaise Dans",
+  "tagline": "Thaise Dansvoorstellingen en Workshops",
+  "nav": {
+    "home": "Home",
+    "video": "Video",
+    "photos": "Foto's",
+    "workshops": "Workshops",
+    "thaiDance": "Over Thaise Dans",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "tagline": "Thaise Dans in Europa Sinds 2005"
+  },
+  "languages": {
+    "nl": "Nederlands",
+    "en": "English",
+    "th": "ภาษาไทย"
+  },
+  "home": {
+    "intro": "Akhira verzorgt Thaise muziek- en dansvoorstellingen op feesten, evenementen, huwelijken en overal waar mensen een Thais gevoel willen creëren. We zijn gevestigd in Amsterdam, maar verzorgen optredens in heel Europa.",
+    "offerTitle": "We bieden shows voor elk budget:",
+    "offerItems": [
+      "Solo dans",
+      "Dansgroepen van 2 tot 16 dansers",
+      "Dans + Live Thaise Muziek"
+    ],
+    "workshopsLink": "workshops en (privé-) lessen",
+    "workshopsText": "Voor mensen met of zonder danservaring geven we [link] in Thaise dans.",
+    "performancesTitle": "Geplande optredens",
+    "banner": {
+      "title": "Thaise dans en Thaise keuken op een boot?",
+      "text": "Akhira organiseert Thaise boottochten door de Amsterdamse grachten.",
+      "linkText": "Klik hier voor meer informatie.",
+      "linkUrl": "http://www.akhira.nl"
+    },
+    "youtubeVideos": [
+      "RF0pvBtKLz4",
+      "-b08tcBSwWk",
+      "mFrrFhXKf2I",
+      "f1Jr4wiUZ-Y"
+    ]
+  },
+  "about": {
+    "subNav": {
+      "intro": "Inleiding",
+      "clients": "Cliënten",
+      "ratchaneekorn": "Over Ratchaneekorn"
+    },
+    "intro": {
+      "title": "Over ons",
+      "image": "/images/content/ouidanceoutfit_smaller.jpg",
+      "paragraphs": [
+        "Akhira is opgericht door Ratchaneekorn Vichayanon. Na een danscarrière in Thailand kwam zij in 2005 naar Nederland en begon zij met dansoptredens op feesten, evenementen, bruiloften en in Thaise restaurants.",
+        "De optredens zijn nooit hetzelfde, in verschillende shows gebruiken we verschillende originele kostuums en props zoals waaiers, parasols, lange nagels en bamboe. We maken steeds een uniek en passend programma voor elke nieuwe opdracht.",
+        "Naast solo-dans werken we samen met andere Thaise dansers en verzorgen we optredens van dansgroepen in wisselende samenstelling. Ook de combinatie met Thaise live muziek behoort tot de mogelijkheden.",
+        "Op dit moment wordt Akhira verder uitgebouwd tot een boekingskantoor voor Thais entertainment in heel Europa. Naast dans en muziek verzorgen we ook Thai Boxing demonstraties (Mueay Thai), Thaise fruitsnijkunst, Thaise make-over fotografie en nog veel meer. Binnenkort te zien op deze website!"
+      ]
+    },
+    "clients": {
+      "title": "Cliënten",
+      "intro": "Akhira heeft dansoptredens verzorgd voor onder andere:",
+      "list": [
+        "UNESCO, Parijs",
+        "Thaise Ambassade, Den Haag",
+        "Kloosterreizen",
+        "Orient Plaza, Nijmegen",
+        "Hilton Hotel, Praag, Tschechie",
+        "Kim en Jeroen, Amsterdam",
+        "Expo Gent voor Thaise Ambassade, België",
+        "Pasar Asia",
+        "Thailand Grand Festival, Amsterdam",
+        "Top Thai, Thai Restaurant, Amsterdam",
+        "Mahanakorn, Thai Restaurant, Utrecht",
+        "Colourfull Festival, Emmen",
+        "Thai Festival, Ahoy, Rotterdam",
+        "Sai Yai Thai, Thai Gala, Grote Kerk Amsterdam",
+        "Thailand Fantasy, Nirusha, Hoofddorp",
+        "Vakantiebeurs, Jaarbeurs, Utrecht",
+        "Winkelcentrum \"De Tuinen\", Naaldwijk",
+        "Wudenshu Asia"
+      ]
+    },
+    "ratchaneekorn": {
+      "title": "Over Ratchaneekorn",
+      "image": "/images/content/oui.jpg",
+      "paragraphs": [
+        "Ratchaneekorn studeerde Thaise en moderne dans aan de gerenommeerde dansacademie \"Nathasin\", gelegen vlakbij het beroemde tempelcomplex Wat Prakaew (Grand Palace) in Bangkok.",
+        "Door heel Thailand danste zij in vele uitvoeringen, zowel klassiek als modern. Één van haar danshoogtepunten was de spectaculaire Thaise dansvoorstelling ter gelegenheid van de 75e verjaardag van koning Phumibol in Thailand, waarbij meer dan 200 dansers te zien waren vanaf de Chaophraya rivier.",
+        "Verder is zij te zien in een groot aantal videoclips van bekende Thaise artiesten zoals Cristina Aguila, James en Sonram. Wekelijks was zij op TV te zien als danseres in \"Ching Roi Ching Lan\", de populairste spelshow van Thailand.",
+        "Sinds februari 2005 woont zij in Nederland en danst zij op evenementen, beurzen, feesten, bruiloften en gala's.",
+        "In de zomer van 2008 won zij de eerste prijs voor zowel solo-dans als groepsdans bij de enige Thaise Danswedstrijd in Europa, in het Kurpark van Bad Homburg, Duitsland."
+      ]
+    },
+    "links": {
+      "title": "Links",
+      "items": [
+        {
+          "text": "Pagina Klassieke Thaise Dans van Mahidol University, Bangkok",
+          "url": "http://www.mahidol.ac.th/thailand/classical-dance.html"
+        },
+        {
+          "text": "Chiangmai-Chiangrai.com over Thaise dans",
+          "url": "http://www.chiangmai-chiangrai.com/thai_classical_dance.html"
+        },
+        {
+          "text": "Baan Ram Thai: uitgebreide Thaise site over Thaise Dans",
+          "url": "http://www.banramthai.com/indexeng.html"
+        },
+        {
+          "text": "Nethai: alles over Thaise activiteiten in Nederland",
+          "url": "http://www.nethai.nl"
+        },
+        {
+          "text": "K'dans studio: De leukste Dans- en Aerobic studio in Den Haag",
+          "url": "http://www.kdans.nl"
+        },
+        {
+          "text": "Ruen Thai: Het lekkerste Thaise eten in Den Haag",
+          "url": "http://www.ruenthai.nl"
+        },
+        {
+          "text": "Top Thai: Het lekkerste Thaise eten in Amsterdam!",
+          "url": "http://www.topthai.nl"
+        },
+        {
+          "text": "Suwannaphoom: Thais vertaalbureau in Almere",
+          "url": "http://www.suwannaphoom.nl/"
+        }
+      ]
+    }
+  },
+  "thaiDance": {
+    "subNav": {
+      "intro": "Inleiding",
+      "history": "Geschiedenis",
+      "music": "Muziek"
+    },
+    "intro": {
+      "title": "Thaise dans",
+      "image": "/images/content/sukhothai.jpg",
+      "paragraphs": [
+        "Thaise dans (Ram Thai) kenmerkt zich door langzame, gracieuze bijna hypnotiserende handbewegingen. Historisch gezien is Thaise dans sterk verweven met toneel en daarom bevat Thaise dans veel expressie. De meeste poses hebben dan ook een duidelijke betekenis zoals verliefdheid, verlegenheid, verdriet, kwaadheid of eerbetoon aan de koning of Boeddha.",
+        "In principe is Thaise dans gebaseerd op langzame ritmes, ook al gaan sommige Thaise volksdansen behoorlijk snel. Het langzame ritme vereist een goede balans en gecontroleerde lichaamshouding.",
+        "Mannen en vrouwen dansen in groepen, alleen of met elkaar. De nadruk ligt niet op de flirt tussen man en vrouw, zoals bij veel Latijns-Amerikaanse dansen. Thaise dans is voornamelijk gericht op het visuele aspect voor de toeschouwer.",
+        "De sierlijke poses en bewegingen zijn een lust voor het oog. Het is niet voor niets dat Aziatische dansen erg in trek zijn bij choreografen. Ook in dansvideoclips zien we steeds meer Aziatische invloeden. De vrouwelijke en elegante bewegingen uit het verre oosten vormen een reactie op de masculiene street- en hiphopdance die we de laatste 15 jaar gezien hebben.",
+        "Thaise dans is niet alleen mooi om te zien, maar is bovendien fantastisch om zelf te doen en draagt bij aan een goede geestelijke en lichamelijke balans."
+      ]
+    },
+    "history": {
+      "title": "Geschiedenis",
+      "image": "/images/content/ramakien.jpg",
+      "paragraphs": [
+        "De geschiedenis van Thaise dans gaat heel ver terug en wortelt in het boeddhisme, dat 1000 jaar geleden uit India is overgewaaid naar Thailand. In de loop der tijd is Thaise dans verder ontwikkeld in Thaise koninklijke kringen. Het werd gebruikt als eerbetoon of als vermaak voor de koning, waarbij dans een grote rol speelde in toneelvoorstellingen. Meestal werd het beroemde epos \"Ramakien\" uitgebeeld. Dit is de meest bekende mythische vertelling uit Thailand. Een behoorlijk lang verhaal, want een volledige Ramakien voorstelling kon wel 5 dagen duren.",
+        "Hoofdrolspelers zijn de bekende slechterik \"Yak\", een soort monster dat je in vele Thaise tempels ziet uitgebeeld en de goedgezinde aap \"Hanuman\", die het opnam voor de koninklijke familie. Het is een verhaal over liefde en de strijd tussen goed en kwaad. Ramakien-voorstellingen zijn nog steeds populair in Thailand.",
+        "Vooral de weldadige handgemaakte kostuums maken veel indruk. De klassieke Thaise dans staat niet bekend als erg eenvoudig, vooral omdat de kostuums vrij zwaar zijn.",
+        "Naast deze klassieke Thaise dans, is er een rijke traditie aan volksdans. Veel van de bewegingen en technieken uit de volksdans zijn ontleend aan de klassieke dans. Verschillende streken hebben hun eigen dansen, gebaseerd op het Thaise leven van alledag, zoals rijst planten, oogsten of boeddhistische rituelen. In het Noorden (Chiang Mai) zijn de dansen uiterst gracieus en stijlvol, in het Zuiden en Oosten (Issan) wat actiever en meer feestelijk, maar nog steeds elegant en verfijnd."
+      ]
+    },
+    "music": {
+      "title": "Muziek",
+      "image": "/images/content/ranaad.jpg",
+      "image2": "/images/content/drum.jpg",
+      "paragraphs": [
+        "In de traditionele dansvoorstellingen werden de danseracteurs begeleid door een orkest, dat niet zichtbaar was voor publiek. Instrumenten zijn over het algemeen gemaakt van bamboe, zoals de Kaen (mondorgel), Ranaad (xylofoon), Pie (fluit), Saw (soort cello). Voor slagwerk de Tsjing (bekkens) en de Khlong (drum). De muziek is gebaseerd op de pentatonische toonladder, ondermeer bekend van de Chinese muziek. De traditionele muziek klinkt voor de ongeoefend luisteraar misschien chaotisch, want de melodieën lijken niet op de westerse en zijn dus even wennen.",
+        "De meeste composities blijven in één toonsoort. Vaak begint men langzaam en voert men het tempo rustig op. De monotonie, in combinatie met de typische bamboe geluiden kan een trance-achtig effect hebben.",
+        "Moderne Thaise volksmuziek klinkt heel vrolijk, wat sneller en meestal met zang. Tegenwoordig is Westerse muziek in Thailand zeer populair onder jongeren. Westers georiënteerde Thaise rocksongs domineren de hitlijsten. Wel blijft de Thaise volksmuziek nog steeds zeer geliefd bij jong en oud."
+      ]
+    }
+  },
+  "workshops": {
+    "intro": "Akhira kan verschillende workshops verzorgen voor particulieren, bedrijven of instellingen, variërend van 1 uur tot 1 dag.",
+    "subtitle": "De inhoud, lengte en groepsgrootte kunnen aangepast worden aan specifieke wensen. Denk aan:",
+    "items": [
+      "Thaise Dansdemonstraties",
+      "Eenvoudige oefeningen (geen danservaring vereist)",
+      "Toelichting op geschiedenis en achtergrond van Thaise dans",
+      "Overheerlijke Thaise hapjes"
+    ],
+    "contactText": "Neem [link] op voor meer informatie.",
+    "contactLink": "contact"
+  },
+  "video": {
+    "title": "Video",
+    "videos": [
+      { "file": "nirusha", "title": "Thailand Fantasy, Nirusha, Hoofddorp", "thumb": "/images/content/nirusha_thumb.jpg" },
+      { "file": "somtam", "title": "Pasar Perron: Som Tam Dance", "thumb": "/images/content/somtam_thumb.jpg" },
+      { "file": "mekkara", "title": "Thailand Festival, Mekkala", "thumb": "/images/content/mekkara_thumb.jpg" },
+      { "file": "boxing", "title": "Thailand Festival, Boxing", "thumb": "/images/content/boxing_thumb.jpg" },
+      { "file": "laanna", "title": "Thailand Festival, Laanna", "thumb": "/images/content/laanna_thumb.jpg" },
+      { "file": "riverofkings", "title": "Thailand Festival, River of Kings", "thumb": "/images/content/riverofkings_thumb.jpg" },
+      { "file": "pasar", "title": "Pasar Asia, Groepsdans", "thumb": "/images/content/pasar_thumb.jpg" },
+      { "file": "ballet", "title": "Thai Gala, Grote Kerk", "thumb": "/images/content/ballet_thumb.jpg" },
+      { "file": "landofsiam", "title": "Thai Gala, Grote Kerk", "thumb": "/images/content/landofsiam_thumb.jpg" },
+      { "file": "sjaal", "title": "Thai Gala, Grote Kerk", "thumb": "/images/content/sjaal_thumb.jpg" },
+      { "file": "thailandclip1", "title": "Queen's day, Bangkok", "thumb": "/images/content/thailandclip1_thumb.jpg" },
+      { "file": "thailandclip2", "title": "Queen's day, Bangkok", "thumb": "/images/content/thailandclip2_thumb.jpg" },
+      { "file": "lexion1", "title": "Thai Party, Lexion", "thumb": "/images/content/lexion1_thumb.jpg" },
+      { "file": "oui_saiyaithai", "title": "Sai Yai Thai Party: Thai Modern", "thumb": "/images/content/oui_saiyaithai_thumb.jpg" },
+      { "file": "vakantiebeurs1", "title": "Vakantiebeurs, Utrecht", "thumb": "/images/content/vakantiebeurs1_thumb.jpg" },
+      { "file": "vakantiebeurs2", "title": "Vakantiebeurs, Utrecht", "thumb": "/images/content/vakantiebeurs2_thumb.jpg" },
+      { "file": "techno", "title": "Sai Yai Thai Party, Techno", "thumb": "/images/content/techno_thumb.jpg" },
+      { "file": "track2", "title": "Videoclip Cristina Aquila", "thumb": "/images/content/track2_thumb.jpg" },
+      { "file": "track8", "title": "Videoclip Cristina Aquila", "thumb": "/images/content/track8_thumb.jpg" },
+      { "file": "restaurant1", "title": "Thai Restaurant", "thumb": "/images/content/restaurant1_thumb.jpg" }
+    ]
+  },
+  "photos": {
+    "title": "Foto's van onze dansoptredens",
+    "subtitle": "Vanaf 2005 tot heden",
+    "gallery1Title": "Optredens",
+    "gallery2Title": "Shows & Events",
+    "gallery1": [
+      "/images/gallery/ThaiDance001.jpg",
+      "/images/gallery/ThaiDance002.jpg",
+      "/images/gallery/ThaiDance003.jpg",
+      "/images/gallery/ThaiDance004.jpg",
+      "/images/gallery/ThaiDance005.jpg",
+      "/images/gallery/ThaiDance006.jpg",
+      "/images/gallery/ThaiDance007.jpg",
+      "/images/gallery/ThaiDance008.jpg",
+      "/images/gallery/ThaiDance009.jpg",
+      "/images/gallery/ThaiDance010.jpg",
+      "/images/gallery/ThaiDance011.jpg",
+      "/images/gallery/ThaiDance012.jpg",
+      "/images/gallery/ThaiDance013.jpg",
+      "/images/gallery/ThaiDance014.jpg",
+      "/images/gallery/ThaiDance015.jpg",
+      "/images/gallery/ThaiDance016.jpg",
+      "/images/gallery/ThaiDance017.jpg",
+      "/images/gallery/ThaiDance018.jpg",
+      "/images/gallery/ThaiDance019.jpg",
+      "/images/gallery/ThaiDance020.jpg",
+      "/images/gallery/ThaiDance021.jpg",
+      "/images/gallery/ThaiDance022.jpg",
+      "/images/gallery/ThaiDance023.jpg",
+      "/images/gallery/ThaiDance024.jpg",
+      "/images/gallery/ThaiDance025.jpg",
+      "/images/gallery/ThaiDance026.jpg",
+      "/images/gallery/ThaiDance027.jpg",
+      "/images/gallery/ThaiDance028.jpg",
+      "/images/gallery/ThaiDance029.jpg",
+      "/images/gallery/ThaiDance030.jpg",
+      "/images/gallery/ThaiDance031.jpg",
+      "/images/gallery/ThaiDance032.jpg",
+      "/images/gallery/ThaiDance033.jpg",
+      "/images/gallery/ThaiDance034.jpg",
+      "/images/gallery/ThaiDance035.jpg",
+      "/images/gallery/ThaiDance036.jpg",
+      "/images/gallery/ThaiDance037.jpg",
+      "/images/gallery/ThaiDance038.jpg",
+      "/images/gallery/ThaiDance039.jpg",
+      "/images/gallery/ThaiDance040.jpg",
+      "/images/gallery/ThaiDance041.jpg",
+      "/images/gallery/ThaiDance042.jpg",
+      "/images/gallery/ThaiDance043.jpg",
+      "/images/gallery/ThaiDance044.jpg",
+      "/images/gallery/ThaiDance045.jpg"
+    ],
+    "gallery2": [
+      "/images/gallery/Thaisedans001.jpg",
+      "/images/gallery/Thaisedans002.jpg",
+      "/images/gallery/Thaisedans003.jpg",
+      "/images/gallery/Thaisedans004.jpg",
+      "/images/gallery/Thaisedans005.jpg",
+      "/images/gallery/Thaisedans006.jpg",
+      "/images/gallery/Thaisedans007.jpg",
+      "/images/gallery/Thaisedans008.jpg",
+      "/images/gallery/Thaisedans009.jpg",
+      "/images/gallery/Thaisedans010.jpg",
+      "/images/gallery/Thaisedans011.jpg",
+      "/images/gallery/Thaisedans012.jpg",
+      "/images/gallery/Thaisedans013.jpg",
+      "/images/gallery/Thaisedans014.jpg",
+      "/images/gallery/Thaisedans015.jpg",
+      "/images/gallery/Thaisedans016.jpg",
+      "/images/gallery/Thaisedans017.jpg",
+      "/images/gallery/Thaisedans018.jpg",
+      "/images/gallery/Thaisedans019.jpg",
+      "/images/gallery/Thaisedans020.jpg",
+      "/images/gallery/Thaisedans021.jpg",
+      "/images/gallery/Thaisedans022.jpg",
+      "/images/gallery/Thaisedans023.jpg",
+      "/images/gallery/Thaisedans024.jpg",
+      "/images/gallery/Thaisedans025.jpg",
+      "/images/gallery/Thaisedans026.jpg"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Akhira Thaise Dans",
+    "email": "oui@thaisedans.nl",
+    "phone": "06 48262749",
+    "formIntro": "Heeft u een vraag of wilt u een vrijblijvende offerte? Neem contact op of gebruik onderstaand contactformulier.",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "message": "Uw vraag",
+      "submit": "Verzend"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Akhira Thaise Dans. Alle rechten voorbehouden.",
+    "privacyPolicy": "Privacy Statement"
+  }
+}

@@ -1,26 +1,63 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-thai-darkest: #1a0f0a;
+  --color-thai-dark: #2d1810;
+  --color-thai-burgundy: #4a1a1a;
+  --color-thai-gold: #c5993a;
+  --color-thai-gold-light: #d4a843;
+  --color-thai-gold-bright: #e8c15a;
+  --color-thai-cream: #f5efe6;
+  --color-thai-cream-dark: #e8ddd0;
+
+  --font-heading: var(--font-cormorant);
+  --font-body: var(--font-inter);
+  --font-thai: var(--font-noto-sans-thai);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Lai Thai Pattern - Dark variant (CSS generated) */
+.lai-thai-dark {
+  position: relative;
+}
+.lai-thai-dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23c5993a' stroke-width='0.5' opacity='0.12'%3E%3Cpath d='M60 10 C70 25 80 30 90 25 C80 35 75 50 60 55 C45 50 40 35 30 25 C40 30 50 25 60 10Z'/%3E%3Cpath d='M60 65 C70 80 80 85 90 80 C80 90 75 105 60 110 C45 105 40 90 30 80 C40 85 50 80 60 65Z'/%3E%3Cpath d='M5 37 C15 52 25 57 35 52 C25 62 20 77 5 82 C-10 77 -15 62 -25 52 C-15 57 -5 52 5 37Z'/%3E%3Cpath d='M115 37 C125 52 135 57 145 52 C135 62 130 77 115 82 C100 77 95 62 85 52 C95 57 105 52 115 37Z'/%3E%3Ccircle cx='60' cy='32' r='3'/%3E%3Ccircle cx='60' cy='87' r='3'/%3E%3Ccircle cx='5' cy='60' r='3'/%3E%3Ccircle cx='115' cy='60' r='3'/%3E%3Cpath d='M40 10 Q50 5 60 10 Q50 15 40 10Z'/%3E%3Cpath d='M60 10 Q70 5 80 10 Q70 15 60 10Z'/%3E%3Cpath d='M40 65 Q50 60 60 65 Q50 70 40 65Z'/%3E%3Cpath d='M60 65 Q70 60 80 65 Q70 70 60 65Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 120px 120px;
+  pointer-events: none;
+  z-index: 0;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Lai Thai Pattern - Light variant */
+.lai-thai-light {
+  position: relative;
+}
+.lai-thai-light::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23c5993a' stroke-width='0.5' opacity='0.06'%3E%3Cpath d='M60 10 C70 25 80 30 90 25 C80 35 75 50 60 55 C45 50 40 35 30 25 C40 30 50 25 60 10Z'/%3E%3Cpath d='M60 65 C70 80 80 85 90 80 C80 90 75 105 60 110 C45 105 40 90 30 80 C40 85 50 80 60 65Z'/%3E%3Cpath d='M5 37 C15 52 25 57 35 52 C25 62 20 77 5 82 C-10 77 -15 62 -25 52 C-15 57 -5 52 5 37Z'/%3E%3Cpath d='M115 37 C125 52 135 57 145 52 C135 62 130 77 115 82 C100 77 95 62 85 52 C95 57 105 52 115 37Z'/%3E%3Ccircle cx='60' cy='32' r='3'/%3E%3Ccircle cx='60' cy='87' r='3'/%3E%3Ccircle cx='5' cy='60' r='3'/%3E%3Ccircle cx='115' cy='60' r='3'/%3E%3Cpath d='M40 10 Q50 5 60 10 Q50 15 40 10Z'/%3E%3Cpath d='M60 10 Q70 5 80 10 Q70 15 60 10Z'/%3E%3Cpath d='M40 65 Q50 60 60 65 Q50 70 40 65Z'/%3E%3Cpath d='M60 65 Q70 60 80 65 Q70 70 60 65Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 120px 120px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Thai Kanok divider */
+.thai-divider {
+  height: 40px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40' fill='none'%3E%3Cpath d='M0 20 H160 Q170 20 175 12 Q180 4 185 8 Q190 12 195 20 Q200 28 205 20 Q210 12 215 8 Q220 4 225 12 Q230 20 240 20 H400' stroke='%23c5993a' stroke-width='1.5'/%3E%3Ccircle cx='200' cy='20' r='4' fill='%23c5993a'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(197, 153, 58, 0.3);
+  color: #1a0f0a;
 }
