@@ -34,7 +34,3 @@ export function getLegacyPhotos(): {
     thaisedans: all.filter((f) => f.includes('Thaisedans')),
   };
 }
-
-export function getVideos(): string[] {
-  return getFilesFromDir('videos', ['.mp4', '.mov', '.MP4', '.MOV']);
-}

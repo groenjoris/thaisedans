@@ -1,27 +1,21 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 interface VideoModalProps {
-  src: string;
+  vimeoId: string;
   title: string;
   onClose: () => void;
 }
 
-export default function VideoModal({ src, title, onClose }: VideoModalProps) {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
+export default function VideoModal({ vimeoId, title, onClose }: VideoModalProps) {
   useEffect(() => {
-    // Prevent body scroll
     document.body.style.overflow = 'hidden';
 
     function handleEscape(e: KeyboardEvent) {
       if (e.key === 'Escape') onClose();
     }
     window.addEventListener('keydown', handleEscape);
-
-    // Auto-play
-    setTimeout(() => videoRef.current?.play(), 100);
 
     return () => {
       document.body.style.overflow = '';
@@ -54,15 +48,15 @@ export default function VideoModal({ src, title, onClose }: VideoModalProps) {
           {title}
         </h3>
 
-        {/* Video */}
-        <video
-          ref={videoRef}
-          controls
-          playsInline
-          className="w-full rounded-sm shadow-2xl"
-        >
-          <source src={src} type="video/mp4" />
-        </video>
+        {/* Vimeo Embed */}
+        <div className="relative w-full aspect-video rounded-sm overflow-hidden shadow-2xl">
+          <iframe
+            src={`https://player.vimeo.com/video/${vimeoId}?autoplay=1&title=0&byline=0&portrait=0`}
+            className="absolute inset-0 w-full h-full"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
       </div>
     </div>
   );

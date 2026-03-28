@@ -36,8 +36,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-# media files (hosted separately)
-/public/images/
+# local video files (using Vimeo embeds instead)
 /public/videos/
 
 # typescript

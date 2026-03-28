@@ -1,67 +1,32 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
+import Image from 'next/image';
 import VideoModal from './VideoModal';
 
 interface VideoCardProps {
-  src: string;
+  vimeoId: string;
   title: string;
-  index: number;
 }
 
-export default function VideoCard({ src, title, index }: VideoCardProps) {
+export default function VideoCard({ vimeoId, title }: VideoCardProps) {
   const [showModal, setShowModal] = useState(false);
-  const [thumbUrl, setThumbUrl] = useState<string | null>(null);
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-
-  // Generate thumbnail from video
-  useEffect(() => {
-    const video = document.createElement('video');
-    video.crossOrigin = 'anonymous';
-    video.preload = 'metadata';
-    video.muted = true;
-    video.playsInline = true;
-
-    video.addEventListener('loadeddata', () => {
-      // Seek to 2 seconds for a good frame
-      video.currentTime = 2;
-    });
-
-    video.addEventListener('seeked', () => {
-      const canvas = canvasRef.current;
-      if (!canvas) return;
-      canvas.width = video.videoWidth;
-      canvas.height = video.videoHeight;
-      const ctx = canvas.getContext('2d');
-      if (ctx) {
-        ctx.drawImage(video, 0, 0);
-        setThumbUrl(canvas.toDataURL('image/jpeg', 0.7));
-      }
-    });
-
-    video.src = src;
-  }, [src]);
 
   return (
     <>
-      <canvas ref={canvasRef} className="hidden" />
       <button
         onClick={() => setShowModal(true)}
         className="relative rounded-sm overflow-hidden bg-thai-darkest aspect-video group w-full text-left"
         aria-label={`Play: ${title}`}
       >
-        {/* Thumbnail */}
-        {thumbUrl ? (
-          <img
-            src={thumbUrl}
-            alt={title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-          />
-        ) : (
-          <div className="w-full h-full bg-thai-dark/80 flex items-center justify-center">
-            <div className="w-12 h-12 border-2 border-thai-gold/30 border-t-thai-gold rounded-full animate-spin" />
-          </div>
-        )}
+        {/* Vimeo Thumbnail */}
+        <Image
+          src={`https://vumbnail.com/${vimeoId}.jpg`}
+          alt={title}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+          sizes="(max-width: 1024px) 100vw, 50vw"
+        />
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/70 transition-colors" />
@@ -89,7 +54,7 @@ export default function VideoCard({ src, title, index }: VideoCardProps) {
 
       {showModal && (
         <VideoModal
-          src={src}
+          vimeoId={vimeoId}
           title={title}
           onClose={() => setShowModal(false)}
         />
