@@ -28,9 +28,6 @@ export default function VideoCard({ vimeoId, title }: VideoCardProps) {
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/70 transition-colors" />
-
         {/* Play button */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-16 h-16 rounded-full bg-thai-gold/90 flex items-center justify-center group-hover:scale-110 group-hover:bg-thai-gold transition-all duration-300 shadow-xl">
@@ -42,13 +39,6 @@ export default function VideoCard({ vimeoId, title }: VideoCardProps) {
               <path d="M8 5v14l11-7z" />
             </svg>
           </div>
-        </div>
-
-        {/* Title */}
-        <div className="absolute bottom-0 left-0 right-0 p-4">
-          <h3 className="text-thai-cream font-[family-name:var(--font-heading)] text-lg font-semibold">
-            {title}
-          </h3>
         </div>
       </button>
 

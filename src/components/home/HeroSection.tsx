@@ -23,7 +23,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section id="hero-section" className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
+    <section id="hero-section" className="relative h-[80vh] min-h-[500px] flex items-center overflow-hidden">
       {/* Video Background */}
       <video
         autoPlay
