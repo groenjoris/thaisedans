@@ -49,7 +49,7 @@ export default async function ThaiDancePage({
           id="intro"
           title={t('intro.title')}
           paragraphs={t.raw('intro.paragraphs') as string[]}
-          image={`${basePath}/images/about/sukhothai.jpg`}
+          image={`${basePath}/images/about/sukothai.png`}
           imageAlt="Sukhothai Thai Dance"
         />
 
