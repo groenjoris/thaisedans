@@ -8,6 +8,8 @@ interface ContentSectionProps {
   image2?: string;
   imageAlt?: string;
   reverse?: boolean;
+  imagePosition?: string;
+  image2Position?: string;
 }
 
 export default function ContentSection({
@@ -18,6 +20,8 @@ export default function ContentSection({
   image2,
   imageAlt = '',
   reverse = false,
+  imagePosition = 'center',
+  image2Position = 'center',
 }: ContentSectionProps) {
   return (
     <section id={id} className="scroll-mt-24 mb-16 last:mb-0">
@@ -44,6 +48,7 @@ export default function ContentSection({
                 alt={imageAlt || title}
                 fill
                 className="object-cover"
+                style={{ objectPosition: imagePosition }}
                 sizes="(max-width: 768px) 100vw, 288px"
               />
             </div>
@@ -54,6 +59,7 @@ export default function ContentSection({
                   alt={imageAlt || title}
                   fill
                   className="object-cover"
+                  style={{ objectPosition: image2Position }}
                   sizes="(max-width: 768px) 100vw, 288px"
                 />
               </div>

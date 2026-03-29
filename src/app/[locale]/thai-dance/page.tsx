@@ -61,6 +61,7 @@ export default async function ThaiDancePage({
           paragraphs={t.raw('history.paragraphs') as string[]}
           image={`${basePath}/images/about/ramakien.jpg`}
           imageAlt="Ramakien performance"
+          imagePosition="right"
           reverse
         />
 
@@ -71,6 +72,7 @@ export default async function ThaiDancePage({
           title={t('music.title')}
           paragraphs={t.raw('music.paragraphs') as string[]}
           image={`${basePath}/images/about/ranaad.jpg`}
+          imagePosition="right"
           image2={`${basePath}/images/about/drum.jpg`}
           imageAlt="Thai musical instruments"
         />
