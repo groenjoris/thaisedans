@@ -73,7 +73,7 @@ export default async function ThaiDancePage({
           paragraphs={t.raw('music.paragraphs') as string[]}
           image={`${basePath}/images/about/ranaad.jpg`}
           imagePosition="right"
-          image2={`${basePath}/images/about/drum.jpg`}
+          image2={`${basePath}/images/about/drum.jpeg`}
           imageAlt="Thai musical instruments"
         />
       </div>
