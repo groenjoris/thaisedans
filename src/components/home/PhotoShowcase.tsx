@@ -41,6 +41,7 @@ export default function PhotoShowcase() {
                 alt="Akhira Thai Dance performance"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
+                style={src.includes('home-03') ? { objectPosition: 'top' } : undefined}
                 sizes={
                   i === 0
                     ? '(max-width: 768px) 100vw, 33vw'

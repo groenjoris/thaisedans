@@ -49,8 +49,8 @@ export default function HeroSection() {
           <p className="text-xl sm:text-2xl text-thai-cream/90 mb-2 font-[family-name:var(--font-heading)] font-light">
             {t('tagline')}
           </p>
-          <p className="text-thai-cream/60 mb-8 max-w-md mx-auto text-sm leading-relaxed">
-            {t('home.intro').slice(0, 150)}...
+          <p className="text-thai-cream/70 mb-8 max-w-lg mx-auto text-base sm:text-lg leading-relaxed">
+            {t('heroDescription')}
           </p>
           <div className="flex flex-col items-center gap-3">
             <Button href={`/${locale}/contact`}>
