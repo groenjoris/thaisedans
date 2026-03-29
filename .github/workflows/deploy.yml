@@ -31,6 +31,9 @@ jobs:
         env:
           PAGES_BASE_PATH: /thaisedans
 
+      # GitHub Pages ignores _next/ without this
+      - run: touch out/.nojekyll
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

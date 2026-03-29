@@ -1,4 +1,4 @@
-import { redirect } from 'next/navigation';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default async function LocaleRoot({
   params,
@@ -6,5 +6,7 @@ export default async function LocaleRoot({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  redirect(`/${locale}/home`);
+  return (
+    <meta httpEquiv="refresh" content={`0;url=${basePath}/${locale}/home`} />
+  );
 }
