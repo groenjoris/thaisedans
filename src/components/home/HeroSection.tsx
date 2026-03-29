@@ -46,19 +46,19 @@ export default function HeroSection() {
           <h1 className="font-[family-name:var(--font-heading)] text-5xl sm:text-6xl lg:text-7xl font-bold text-thai-gold mb-4 leading-tight">
             Akhira
           </h1>
-          <p className="text-xl sm:text-2xl text-thai-cream/90 mb-2 font-[family-name:var(--font-heading)] font-light">
+          <p className="text-sm sm:text-base uppercase tracking-wider text-thai-gold/70 mb-3 font-[family-name:var(--font-heading)]">
             {t('tagline')}
           </p>
-          <p className="text-thai-cream/70 mb-8 max-w-lg mx-auto text-base sm:text-lg leading-relaxed">
+          <p className="text-2xl sm:text-3xl lg:text-4xl text-thai-cream/90 mb-8 max-w-lg mx-auto leading-snug font-[family-name:var(--font-heading)] font-light">
             {t('heroDescription')}
           </p>
           <div className="flex flex-col items-center gap-3">
             <Button href={`/${locale}/contact`}>
               {locale === 'nl'
-                ? 'Check beschikbaarheid'
+                ? 'Vrijblijvende offerte'
                 : locale === 'th'
-                  ? 'ตรวจสอบความพร้อม'
-                  : 'Check Availability'}
+                  ? 'ขอใบเสนอราคาฟรี'
+                  : 'Free Quote'}
             </Button>
             <button
               onClick={scrollToNext}
