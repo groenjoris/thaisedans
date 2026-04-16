@@ -7,103 +7,190 @@ interface PrivacyModalProps {
   onClose: () => void;
 }
 
-const privacyContent = {
+interface Section {
+  heading: string;
+  text?: string;
+  items?: string[];
+}
+
+const privacyContent: Record<string, { title: string; operator: { name: string; address: string[]; email: string }; sections: Section[] }> = {
   en: {
-    title: 'Privacy Statement',
+    title: 'Privacy Policy',
+    operator: {
+      name: 'R. Vichayanon',
+      address: ['Kaiser-Friedrich-Allee 15a', 'D-52074 Aachen'],
+      email: 'info@thaisedans.nl',
+    },
     sections: [
       {
-        heading: 'General',
-        text: 'Akhira Thai Dance, located in Amsterdam, The Netherlands, is responsible for the processing of personal data as described in this privacy statement.',
+        heading: '1. General Information',
+        text: 'When you visit this website, certain technical information is automatically processed in order to ensure the website functions properly and remains secure. We are committed to handling your personal data carefully and in accordance with applicable data protection laws.',
       },
       {
-        heading: 'Personal Data We Process',
-        text: 'Akhira Thai Dance processes your personal data because you use our services and/or because you provide this information to us yourself. Below is an overview of the personal data we process: first and last name, email address, telephone number.',
+        heading: '2. Data Collection and Processing',
+        text: 'When you access this website, the web server automatically processes certain information, including:',
+        items: [
+          'IP address',
+          'Date and time of access',
+          'Browser type and version',
+          'Operating system',
+          'Referrer URL',
+        ],
       },
       {
-        heading: 'Purpose of Data Processing',
-        text: 'Akhira Thai Dance processes your personal data for the following purposes: to handle your inquiries and requests, to contact you by phone or email if necessary to perform our services, and to inform you about changes to our services.',
+        heading: '3. Legal Basis for Processing',
+        text: 'The processing of this data is based on Article 6(1)(f) GDPR, which allows processing where it is necessary for the purposes of a legitimate interest. Our legitimate interest is to ensure the secure, stable, and proper operation of this website.',
       },
       {
-        heading: 'Data Retention',
-        text: 'Akhira Thai Dance does not store your personal data longer than is strictly necessary to achieve the purposes for which your data is collected.',
+        heading: '4. Cookies',
+        text: 'This website does not use cookies or similar tracking technologies.',
       },
       {
-        heading: 'Sharing with Third Parties',
-        text: 'Akhira Thai Dance does not sell your data to third parties and will only provide this to third parties if this is necessary for the execution of our agreement with you or to comply with a legal obligation.',
+        heading: '5. Data Sharing',
+        text: 'We do not share your personal data with third parties, unless this is required by law.',
       },
       {
-        heading: 'Cookies',
-        text: 'This website does not use tracking cookies. We may use functional cookies that are necessary for the website to function properly.',
+        heading: '6. Data Retention',
+        text: 'Server log data, including IP addresses, is stored only for as long as necessary to ensure the security and proper functioning of the website. After that, the data is automatically deleted.',
       },
       {
-        heading: 'Your Rights',
-        text: 'You have the right to view, correct or delete your personal data. You also have the right to withdraw any consent you have given for data processing or to object to the processing of your personal data. You can send a request for access, correction, deletion, or data transfer of your personal data, or a request to withdraw consent or object to processing, to oui@thaisedans.nl.',
+        heading: '7. Your Rights',
+        text: 'Under the General Data Protection Regulation (GDPR), you have the following rights:',
+        items: [
+          'Right of access (Art. 15 GDPR)',
+          'Right to rectification (Art. 16 GDPR)',
+          'Right to erasure (Art. 17 GDPR)',
+          'Right to restriction of processing (Art. 18 GDPR)',
+          'Right to object to processing (Art. 21 GDPR)',
+        ],
       },
       {
-        heading: 'Contact',
-        text: 'If you have questions about this privacy statement, please contact us: Akhira Thai Dance, oui@thaisedans.nl, +31 6 48262749.',
+        heading: '8. Changes to This Privacy Policy',
+        text: 'We reserve the right to update this Privacy Policy at any time in order to comply with legal requirements or to reflect changes in our services.',
+      },
+      {
+        heading: '9. Contact',
+        text: 'If you have any questions about this Privacy Policy, please contact us at info@thaisedans.nl.',
       },
     ],
   },
   nl: {
-    title: 'Privacy Statement',
+    title: 'Privacybeleid',
+    operator: {
+      name: 'R. Vichayanon',
+      address: ['Kaiser-Friedrich-Allee 15a', 'D-52074 Aachen'],
+      email: 'info@thaisedans.nl',
+    },
     sections: [
       {
-        heading: 'Algemeen',
-        text: 'Akhira Thaise Dans, gevestigd in Amsterdam, Nederland, is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in deze privacyverklaring.',
+        heading: '1. Algemene informatie',
+        text: 'Wanneer u deze website bezoekt, wordt er automatisch bepaalde technische informatie verwerkt om de goede werking en veiligheid van de website te waarborgen. Wij verwerken uw persoonsgegevens zorgvuldig en in overeenstemming met de toepasselijke privacywetgeving.',
       },
       {
-        heading: 'Persoonsgegevens die wij verwerken',
-        text: 'Akhira Thaise Dans verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat u deze gegevens zelf aan ons verstrekt. Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken: voor- en achternaam, e-mailadres, telefoonnummer.',
+        heading: '2. Gegevensverzameling en -verwerking',
+        text: 'Wanneer u deze website bezoekt, verwerkt de webserver automatisch bepaalde informatie, waaronder:',
+        items: [
+          'IP-adres',
+          'Datum en tijdstip van toegang',
+          'Browsertype en -versie',
+          'Besturingssysteem',
+          'Verwijzende URL',
+        ],
       },
       {
-        heading: 'Doel van gegevensverwerking',
-        text: 'Akhira Thaise Dans verwerkt uw persoonsgegevens voor de volgende doeleinden: het afhandelen van uw vragen en verzoeken, u te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te voeren, en u te informeren over wijzigingen van onze diensten.',
+        heading: '3. Rechtsgrondslag voor verwerking',
+        text: 'De verwerking van deze gegevens is gebaseerd op artikel 6(1)(f) AVG, dat verwerking toestaat wanneer dit noodzakelijk is voor de behartiging van gerechtvaardigde belangen. Ons gerechtvaardigde belang is het waarborgen van een veilige, stabiele en goede werking van deze website.',
       },
       {
-        heading: 'Bewaartermijn',
-        text: 'Akhira Thaise Dans bewaart uw persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor uw gegevens worden verzameld.',
+        heading: '4. Cookies',
+        text: 'Deze website maakt geen gebruik van cookies of vergelijkbare trackingtechnologieën.',
       },
       {
-        heading: 'Delen met derden',
-        text: 'Akhira Thaise Dans verkoopt uw gegevens niet aan derden en verstrekt deze uitsluitend indien dit nodig is voor de uitvoering van onze overeenkomst met u of om te voldoen aan een wettelijke verplichting.',
+        heading: '5. Delen met derden',
+        text: 'Wij delen uw persoonsgegevens niet met derden, tenzij dit wettelijk verplicht is.',
       },
       {
-        heading: 'Cookies',
-        text: 'Deze website gebruikt geen tracking cookies. We gebruiken mogelijk functionele cookies die noodzakelijk zijn voor het goed functioneren van de website.',
+        heading: '6. Bewaartermijn',
+        text: 'Serverloggegevens, inclusief IP-adressen, worden slechts bewaard zolang dit noodzakelijk is voor de veiligheid en goede werking van de website. Daarna worden de gegevens automatisch verwijderd.',
       },
       {
-        heading: 'Uw rechten',
-        text: 'U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens. U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdracht, of een verzoek tot intrekking van toestemming of bezwaar sturen naar oui@thaisedans.nl.',
+        heading: '7. Uw rechten',
+        text: 'Op grond van de Algemene Verordening Gegevensbescherming (AVG) heeft u de volgende rechten:',
+        items: [
+          'Recht op inzage (art. 15 AVG)',
+          'Recht op rectificatie (art. 16 AVG)',
+          'Recht op verwijdering (art. 17 AVG)',
+          'Recht op beperking van de verwerking (art. 18 AVG)',
+          'Recht om bezwaar te maken tegen verwerking (art. 21 AVG)',
+        ],
       },
       {
-        heading: 'Contact',
-        text: 'Als u vragen heeft over deze privacyverklaring, neem dan contact met ons op: Akhira Thaise Dans, oui@thaisedans.nl, +31 6 48262749.',
+        heading: '8. Wijzigingen in dit privacybeleid',
+        text: 'Wij behouden ons het recht voor dit privacybeleid op elk moment te wijzigen om te voldoen aan wettelijke vereisten of om veranderingen in onze diensten te weerspiegelen.',
+      },
+      {
+        heading: '9. Contact',
+        text: 'Als u vragen heeft over dit privacybeleid, kunt u contact met ons opnemen via info@thaisedans.nl.',
       },
     ],
   },
   th: {
     title: 'นโยบายความเป็นส่วนตัว',
+    operator: {
+      name: 'R. Vichayanon',
+      address: ['Kaiser-Friedrich-Allee 15a', 'D-52074 Aachen'],
+      email: 'info@thaisedans.nl',
+    },
     sections: [
       {
-        heading: 'ทั่วไป',
-        text: 'Akhira Thai Dance ตั้งอยู่ใน Amsterdam ประเทศเนเธอร์แลนด์ เป็นผู้รับผิดชอบในการประมวลผลข้อมูลส่วนบุคคลตามที่อธิบายไว้ในนโยบายความเป็นส่วนตัวนี้',
+        heading: '1. ข้อมูลทั่วไป',
+        text: 'เมื่อคุณเข้าชมเว็บไซต์นี้ ข้อมูลทางเทคนิคบางอย่างจะถูกประมวลผลโดยอัตโนมัติเพื่อให้เว็บไซต์ทำงานได้อย่างถูกต้องและปลอดภัย เราให้ความสำคัญกับการดูแลข้อมูลส่วนบุคคลของคุณตามกฎหมายคุ้มครองข้อมูลที่บังคับใช้',
       },
       {
-        heading: 'ข้อมูลส่วนบุคคลที่เราประมวลผล',
-        text: 'Akhira Thai Dance ประมวลผลข้อมูลส่วนบุคคลของคุณเนื่องจากคุณใช้บริการของเราและ/หรือเพราะคุณให้ข้อมูลนี้แก่เราเอง ข้อมูลที่เราประมวลผล: ชื่อ-นามสกุล, อีเมล, เบอร์โทรศัพท์',
+        heading: '2. การเก็บรวบรวมและประมวลผลข้อมูล',
+        text: 'เมื่อคุณเข้าถึงเว็บไซต์นี้ เว็บเซิร์ฟเวอร์จะประมวลผลข้อมูลบางอย่างโดยอัตโนมัติ ได้แก่:',
+        items: [
+          'ที่อยู่ IP',
+          'วันที่และเวลาที่เข้าถึง',
+          'ประเภทและเวอร์ชันของเบราว์เซอร์',
+          'ระบบปฏิบัติการ',
+          'URL ที่อ้างอิง',
+        ],
       },
       {
-        heading: 'วัตถุประสงค์',
-        text: 'Akhira Thai Dance ประมวลผลข้อมูลส่วนบุคคลของคุณเพื่อจัดการคำถามและคำขอของคุณ ติดต่อคุณทางโทรศัพท์หรืออีเมลหากจำเป็น และแจ้งให้คุณทราบเกี่ยวกับการเปลี่ยนแปลงบริการของเรา',
+        heading: '3. ฐานทางกฎหมายในการประมวลผล',
+        text: 'การประมวลผลข้อมูลนี้อ้างอิงตามมาตรา 6(1)(f) GDPR ซึ่งอนุญาตให้ประมวลผลเมื่อจำเป็นเพื่อประโยชน์อันชอบธรรม เพื่อให้เว็บไซต์นี้ทำงานได้อย่างปลอดภัยและมีเสถียรภาพ',
       },
       {
-        heading: 'สิทธิ์ของคุณ',
-        text: 'คุณมีสิทธิ์ในการดู แก้ไข หรือลบข้อมูลส่วนบุคคลของคุณ คุณสามารถส่งคำขอไปที่ oui@thaisedans.nl',
+        heading: '4. คุกกี้',
+        text: 'เว็บไซต์นี้ไม่ใช้คุกกี้หรือเทคโนโลยีการติดตามที่คล้ายกัน',
       },
       {
-        heading: 'ติดต่อ',
-        text: 'หากคุณมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ กรุณาติดต่อเรา: Akhira Thai Dance, oui@thaisedans.nl, +31 6 48262749',
+        heading: '5. การแบ่งปันข้อมูล',
+        text: 'เราไม่แบ่งปันข้อมูลส่วนบุคคลของคุณกับบุคคลที่สาม เว้นแต่กฎหมายกำหนดให้ต้องทำ',
+      },
+      {
+        heading: '6. การเก็บรักษาข้อมูล',
+        text: 'ข้อมูลบันทึกเซิร์ฟเวอร์ รวมถึงที่อยู่ IP จะถูกเก็บไว้เท่าที่จำเป็นเพื่อความปลอดภัยและการทำงานที่เหมาะสมของเว็บไซต์ หลังจากนั้นข้อมูลจะถูกลบโดยอัตโนมัติ',
+      },
+      {
+        heading: '7. สิทธิ์ของคุณ',
+        text: 'ภายใต้ GDPR คุณมีสิทธิ์ดังต่อไปนี้:',
+        items: [
+          'สิทธิ์ในการเข้าถึงข้อมูล (มาตรา 15 GDPR)',
+          'สิทธิ์ในการแก้ไขข้อมูล (มาตรา 16 GDPR)',
+          'สิทธิ์ในการลบข้อมูล (มาตรา 17 GDPR)',
+          'สิทธิ์ในการจำกัดการประมวลผล (มาตรา 18 GDPR)',
+          'สิทธิ์ในการคัดค้านการประมวลผล (มาตรา 21 GDPR)',
+        ],
+      },
+      {
+        heading: '8. การเปลี่ยนแปลงนโยบายนี้',
+        text: 'เราขอสงวนสิทธิ์ในการอัปเดตนโยบายความเป็นส่วนตัวนี้เมื่อใดก็ได้เพื่อให้สอดคล้องกับข้อกำหนดทางกฎหมาย',
+      },
+      {
+        heading: '9. ติดต่อ',
+        text: 'หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ กรุณาติดต่อเราที่ info@thaisedans.nl',
       },
     ],
   },
@@ -127,13 +214,14 @@ export default function PrivacyModal({ onClose }: PrivacyModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+      className="fixed inset-0 z-[200] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
       onClick={onClose}
     >
       <div
         className="bg-thai-cream rounded-sm max-w-2xl w-full max-h-[80vh] overflow-y-auto shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
+        {/* Header */}
         <div className="sticky top-0 bg-thai-darkest px-6 py-4 flex items-center justify-between">
           <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-thai-gold">
             {content.title}
@@ -141,6 +229,7 @@ export default function PrivacyModal({ onClose }: PrivacyModalProps) {
           <button
             onClick={onClose}
             className="text-thai-cream/60 hover:text-thai-cream transition-colors"
+            aria-label="Close"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -148,11 +237,35 @@ export default function PrivacyModal({ onClose }: PrivacyModalProps) {
           </button>
         </div>
 
-        <div className="px-6 py-6 space-y-5">
+        <div className="px-6 py-6 space-y-1">
+          {/* Operator block */}
+          <div className="mb-6 text-sm text-thai-dark/80 leading-relaxed">
+            <p className="font-semibold text-thai-darkest">{content.operator.name}</p>
+            {content.operator.address.map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
+            <a
+              href={`mailto:${content.operator.email}`}
+              className="text-thai-gold hover:underline"
+            >
+              {content.operator.email}
+            </a>
+          </div>
+
+          {/* Sections */}
           {content.sections.map((section, i) => (
-            <div key={i}>
+            <div key={i} className="pb-4">
               <h3 className="font-semibold text-thai-darkest mb-1">{section.heading}</h3>
-              <p className="text-thai-dark/80 text-sm leading-relaxed">{section.text}</p>
+              {section.text && (
+                <p className="text-thai-dark/80 text-sm leading-relaxed">{section.text}</p>
+              )}
+              {section.items && (
+                <ul className="mt-1 space-y-0.5 list-disc list-inside text-sm text-thai-dark/80">
+                  {section.items.map((item, j) => (
+                    <li key={j}>{item}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           ))}
         </div>
