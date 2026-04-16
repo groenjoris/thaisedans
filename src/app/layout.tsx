@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Cormorant_Garamond, Inter, Noto_Sans_Thai } from 'next/font/google';
+import Script from 'next/script';
 import { getOrganizationSchema } from '@/lib/structuredData';
 import './globals.css';
 
@@ -55,6 +56,19 @@ export default function RootLayout({
             __html: JSON.stringify(getOrganizationSchema()),
           }}
         />
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZJC5JTHD38"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZJC5JTHD38');
+          `}
+        </Script>
         {children}
       </body>
     </html>
