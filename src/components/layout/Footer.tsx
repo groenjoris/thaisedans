@@ -61,12 +61,6 @@ export default function Footer() {
               >
                 {t('contact.email')}
               </a>
-              <a
-                href={`tel:${t('contact.phone').replace(/\s/g, '')}`}
-                className="hover:text-thai-gold transition-colors"
-              >
-                {t('contact.phone')}
-              </a>
             </div>
           </div>
         </div>

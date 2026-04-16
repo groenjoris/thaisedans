@@ -65,17 +65,6 @@ export default async function ContactPage({
               </a>
             </div>
 
-            <div>
-              <p className="text-sm text-thai-dark/50 uppercase tracking-wider mb-1">
-                {locale === 'nl' ? 'Telefoon' : locale === 'th' ? 'โทรศัพท์' : 'Phone'}
-              </p>
-              <a
-                href={`tel:${t('phone').replace(/\s/g, '')}`}
-                className="text-xl text-thai-gold hover:text-thai-gold-light transition-colors font-semibold"
-              >
-                {t('phone')}
-              </a>
-            </div>
           </div>
         </div>
       </div>
