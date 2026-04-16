@@ -28,11 +28,12 @@ jobs:
       - run: npm ci
 
       - run: npx next build
-        env:
-          PAGES_BASE_PATH: /thaisedans
 
       # GitHub Pages ignores _next/ without this
       - run: touch out/.nojekyll
+
+      # Custom domain
+      - run: echo "thaisedans.nl" > out/CNAME
 
       - uses: actions/upload-pages-artifact@v3
         with:
