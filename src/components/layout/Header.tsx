@@ -39,7 +39,7 @@ export default function Header() {
   const headerBg = scrolled
     ? 'bg-thai-darkest/95 backdrop-blur-sm shadow-lg'
     : isDarkPage
-      ? 'bg-transparent'
+      ? 'bg-thai-darkest/95 backdrop-blur-sm shadow-lg lg:bg-transparent lg:backdrop-blur-none lg:shadow-none'
       : 'bg-thai-darkest/95 backdrop-blur-sm shadow-lg';
 
   return (
