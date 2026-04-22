@@ -19,7 +19,7 @@ const privacyContent: Record<string, { title: string; operator: { name: string; 
     operator: {
       name: 'R. Vichayanon',
       address: ['Kaiser-Friedrich-Allee 15a', 'D-52074 Aachen'],
-      email: 'oui@thaisedans.nl',
+      email: 'info@thaisedans.nl',
     },
     sections: [
       {
@@ -70,7 +70,7 @@ const privacyContent: Record<string, { title: string; operator: { name: string; 
       },
       {
         heading: '9. Contact',
-        text: 'If you have any questions about this Privacy Policy, please contact us at oui@thaisedans.nl.',
+        text: 'If you have any questions about this Privacy Policy, please contact us at info@thaisedans.nl.',
       },
     ],
   },
@@ -79,7 +79,7 @@ const privacyContent: Record<string, { title: string; operator: { name: string; 
     operator: {
       name: 'R. Vichayanon',
       address: ['Kaiser-Friedrich-Allee 15a', 'D-52074 Aachen'],
-      email: 'oui@thaisedans.nl',
+      email: 'info@thaisedans.nl',
     },
     sections: [
       {
@@ -130,7 +130,7 @@ const privacyContent: Record<string, { title: string; operator: { name: string; 
       },
       {
         heading: '9. Contact',
-        text: 'Als u vragen heeft over dit privacybeleid, kunt u contact met ons opnemen via oui@thaisedans.nl.',
+        text: 'Als u vragen heeft over dit privacybeleid, kunt u contact met ons opnemen via info@thaisedans.nl.',
       },
     ],
   },
@@ -139,7 +139,7 @@ const privacyContent: Record<string, { title: string; operator: { name: string; 
     operator: {
       name: 'R. Vichayanon',
       address: ['Kaiser-Friedrich-Allee 15a', 'D-52074 Aachen'],
-      email: 'oui@thaisedans.nl',
+      email: 'info@thaisedans.nl',
     },
     sections: [
       {
@@ -190,7 +190,7 @@ const privacyContent: Record<string, { title: string; operator: { name: string; 
       },
       {
         heading: '9. ติดต่อ',
-        text: 'หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ กรุณาติดต่อเราที่ oui@thaisedans.nl',
+        text: 'หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ กรุณาติดต่อเราที่ info@thaisedans.nl',
       },
     ],
   },

@@ -23,7 +23,7 @@
     "offerTitle": "Shows for Every Occasion",
     "offerItems": [
       "Solo dance",
-      "Dance groups (2-16 dancers)",
+      "Dance groups (2-6 dancers)",
       "Dance and live Thai music"
     ],
     "workshopsLink": "workshops and (private) lessons",
@@ -290,7 +290,7 @@
   "contact": {
     "title": "Contact",
     "name": "Akhira Thai Dance",
-    "email": "oui@thaisedans.nl",
+    "email": "info@thaisedans.nl",
     "phone": "06 48262749",
     "formIntro": "Do you have a question or would you like a free quote? Please contact us or use the form below.",
     "form": {
