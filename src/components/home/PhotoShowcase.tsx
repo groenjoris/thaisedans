@@ -32,7 +32,7 @@ export default function PhotoShowcase() {
                 i === 0
                   ? 'col-span-2 lg:col-span-1 lg:row-span-2 aspect-[3/4]'
                   : i === photos.length - 1
-                    ? 'col-span-2 lg:col-span-2 aspect-[2/1]'
+                    ? 'col-span-1 lg:col-span-2 aspect-[4/3] lg:aspect-[2/1]'
                     : 'aspect-[4/3]'
               }`}
             >
@@ -46,7 +46,7 @@ export default function PhotoShowcase() {
                   i === 0
                     ? '(max-width: 768px) 100vw, 33vw'
                     : i === photos.length - 1
-                      ? '(max-width: 768px) 100vw, 66vw'
+                      ? '(max-width: 768px) 50vw, 66vw'
                       : '(max-width: 768px) 50vw, 33vw'
                 }
                 priority={i < 2}
